@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*TGAA color palette*/
+    --tgaa-textbox-border: #d1be67;
+    --tgaa-textbox-innerborder: #4c4424;
+    --tgaa-textbox-bg: #0d1825;
+    --tgaa-choice-bg: #faf4da;
+    --tgaa-choice-text: #342215;
+    --tgaa-choice-border: #5e4c18;
+    --tgaa-choice-border-selected: #0044ff;
+    --tgaa-cr-bg: #dfd8bb;
+    --tgaa-cr-text: #2b2408;
+    --tgaa-logo-text: #363e51;
+    --tgaa-logo-hl: #921e2b;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+p,
+a,
+h1,
+h2,
+h3 {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.active {
+    pointer-events: none;
+}
+
+.about {
+    width: 95%;
+    margin: auto;
+}
+
+.inactive {
+    color: black;
+}
+
+.strike{
+    text-decoration:line-through;
+}
+
+.rj {
+    text-align: right;
+}

@@ -1,0 +1,113 @@
+body{
+    background-color:var(--tgaa-cr-bg);
+}
+
+h1{
+    color:var(--tgaa-cr-text);
+}
+
+table,
+td {
+    border-color: var(--tgaa-textbox-innerborder);
+}
+
+td{
+    background-color: var(--tgaa-textbox-bg);
+}
+
+strong{
+    color:white;
+}
+
+a{
+    color:var(--tgaa-choice-border-selected);
+}
+
+hr{
+    border-color:var(--tgaa-cr-text);
+}
+
+li::marker{
+    color:var(--tgaa-cr-text);
+}
+
+#searchmode{
+    background-color:var(--tgaa-choice-bg);
+    border:solid 2px var(--tgaa-choice-border);
+    color:var(--tgaa-choice-text);
+}
+
+#searchmode:hover{
+    border: solid 2px var(--tgaa-choice-border-selected);
+}
+
+.helper {
+    color:var(--tgaa-cr-text);
+}
+
+.option {
+    background-color: var(--tgaa-choice-bg);
+}
+
+.collapsible {
+    background-color: var(--tgaa-choice-bg);
+    border-color: var(--tgaa-choice-border);
+}
+
+.collapsible:hover,
+.isActive {
+    border: solid 3px var(--tgaa-choice-border-selected);
+}
+
+.choice {
+    color: var(--tgaa-choice-text);
+}
+
+.gold {
+    color: var(--tgaa-textbox-border);
+}
+
+.content{
+    border-color:var(--tgaa-choice-border);
+}
+
+.eng {
+    border-left-color:var(--tgaa-choice-border);
+}
+
+.pf{
+    background-color:var(--tgaa-cr-bg);
+}
+
+.pfp{
+    color:var(--tgaa-cr-text);
+}
+
+.nav2{
+    background-color: var(--tgaa-logo-hl);
+}
+
+.nava2{
+    color:white;
+}
+
+.active{
+    color:var(--tgaa-logo-text);
+    background-color:var(--tgaa-cr-bg);
+}
+
+.nava2:hover {
+    background-color: var(--tgaa-logo-text);
+}
+
+.caselist{
+    color:var(--tgaa-logo-hl)
+}
+
+.english{
+    font-family:'Lucida Handwriting', cursive;
+}
+
+.engimg{
+    display:inline-block;
+}
