@@ -13,6 +13,7 @@ body {
     --tgaa-cr-text: #2b2408;
     --tgaa-logo-text: #363e51;
     --tgaa-logo-hl: #921e2b;
+    --tgaa-deduction-solved:#c01716;
 }
 
 table {
@@ -63,6 +64,11 @@ a {
     text-decoration:line-through;
 }
 
+.ul{
+    text-decoration:underline;
+}
+
 .rj {
     text-align: right;
+
 }
