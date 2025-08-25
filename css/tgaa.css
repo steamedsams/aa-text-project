@@ -7,6 +7,7 @@ h1{
 }
 
 table,
+th,
 td {
     border-color: var(--tgaa-textbox-innerborder);
 }
@@ -110,4 +111,17 @@ li::marker{
 
 .engimg{
     display:inline-block;
+
+}
+
+.solved{
+    color:var(--tgaa-deduction-solved);
+}
+
+.ul{
+    text-decoration-color:var(--tgaa-cr-text);
+}
+
+.strike{
+    text-decoration-color:var(--tgaa-textbox-innerborder);
 }
