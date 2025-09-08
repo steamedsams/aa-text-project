@@ -125,3 +125,11 @@ li::marker{
 .strike{
     text-decoration-color:var(--tgaa-textbox-innerborder);
 }
+
+.name{
+    color:var(--tgaa-cr-text);
+    text-decoration:underline;
+    text-decoration-style:dashed;
+    text-decoration-thickness:1px;
+    text-decoration-color:var(--tgaa-cr-text);
+}
