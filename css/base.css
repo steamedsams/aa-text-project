@@ -1,6 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    /*Phoenix Wright color palette*/
+    --pwaa-profile-bg: #f6f5f1;
+    --pwaa-profile-acc: #2784c1;
+    --pwaa-profile-hl: #ffbf15;
+    --pwaa-profile-ul: #b1b1b1;
     /*TGAA color palette*/
     --tgaa-textbox-border: #d1be67;
     --tgaa-textbox-innerborder: #4c4424;
@@ -43,12 +48,45 @@ a {
     text-decoration: none;
 }
 
+h2{
+    margin-bottom:0;
+}
+
 .center {
     text-align: center;
 }
 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #68401f;
+}
+
+.nava {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.nava:hover {
+    background-color: #cbc8a5;
+    color: #4b2a10;
+}
+
+.navli {
+    float: left;
+}
+
+.navli .nava {
+    padding: 8px 12px;
+}
+
 .active {
     pointer-events: none;
+    background-color: #f1f0ec;
+    color: #4b2a10;
 }
 
 .about {
@@ -62,6 +100,7 @@ a {
 
 .strike{
     text-decoration:line-through;
+    text-decoration-thickness: 5px;
 }
 
 .ul{
@@ -70,5 +109,14 @@ a {
 
 .rj {
     text-align: right;
+}
 
+.title {
+    background: none;
+}
+
+.caselist,
+.gamelist,
+.inactive {
+    font-size: 21px;
 }
