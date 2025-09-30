@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+p {
+    line-height: 1.25;
+}
+
+hr {
+    border-color: #4b2a10;
+}
+
+#profile {
+    background-color: var(--pwaa-profile-bg);
+    border: solid 4px;
+    border-radius: 2%;
+    border-color: var(--pwaa-profile-acc);
+    margin-bottom: 6px;
+}
+
+#myname {
+    color: black;
+    background-color: var(--pwaa-profile-hl);
+    margin: 0.4%;
+}
+
+#selfportrait {
+    width: 100%;
+    display: block;
+}
+
+#portrait {
+    width: 25%;
+}
+
+#desc {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.description {
+    width: 100%;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--pwaa-profile-ul);
+    text-decoration-style: dashed;
+}
