@@ -19,6 +19,9 @@ body {
     --tgaa-logo-text: #363e51;
     --tgaa-logo-hl: #921e2b;
     --tgaa-deduction-solved:#c01716;
+    --tgaa-blood-green: #88ae50;
+    --tgaa-blood-blue: #365faa;
+    --tgaa-blood-purple: #623d9c;
 }
 
 table {
@@ -61,7 +64,7 @@ h2{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #68401f;
+    background-color: #613d20;
 }
 
 .nava {
@@ -120,3 +123,4 @@ h2{
 .inactive {
     font-size: 21px;
 }
+
