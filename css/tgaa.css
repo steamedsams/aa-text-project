@@ -76,6 +76,10 @@ li::marker{
     border-left-color:var(--tgaa-choice-border);
 }
 
+.bottom{
+    border-bottom-color:var(--tgaa-choice-border);
+}
+
 .pf{
     background-color:var(--tgaa-cr-bg);
 }
@@ -133,3 +137,4 @@ li::marker{
     text-decoration-thickness:1px;
     text-decoration-color:var(--tgaa-cr-text);
 }
+
