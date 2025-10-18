@@ -55,6 +55,10 @@ h2{
     margin-bottom:0;
 }
 
+ruby{
+    ruby-align:center;
+}
+
 .center {
     text-align: center;
 }
@@ -123,4 +127,5 @@ h2{
 .inactive {
     font-size: 21px;
 }
+
 
