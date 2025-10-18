@@ -55,7 +55,7 @@ h2{
     margin-bottom:0;
 }
 
-ruby{
+.longruby{
     ruby-align:center;
 }
 
@@ -127,5 +127,6 @@ ruby{
 .inactive {
     font-size: 21px;
 }
+
 
 
