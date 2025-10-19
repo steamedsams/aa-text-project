@@ -68,7 +68,7 @@ h2{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #613d20;
+    background-color: #5f3b1f;
 }
 
 .nava {
@@ -78,8 +78,7 @@ h2{
 }
 
 .nava:hover {
-    background-color: #cbc8a5;
-    color: #4b2a10;
+    background-color: #395d97;
 }
 
 .navli {
@@ -126,6 +125,7 @@ h2{
 .inactive {
     font-size: 21px;
 }
+
 
 
 
