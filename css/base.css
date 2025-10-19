@@ -118,6 +118,7 @@ h2{
 
 .title {
     background: none;
+    border:none;
 }
 
 .caselist,
@@ -125,6 +126,7 @@ h2{
 .inactive {
     font-size: 21px;
 }
+
 
 
 
