@@ -55,6 +55,10 @@ h2{
     margin-bottom:0;
 }
 
+img{
+    max-width:100%;
+}
+
 .longruby{
     ruby-align:center;
 }
@@ -125,6 +129,7 @@ h2{
 .inactive {
     font-size: 21px;
 }
+
 
 
 
