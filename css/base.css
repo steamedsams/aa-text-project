@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 0 5px 0;
     /*Phoenix Wright color palette*/
     --pwaa-profile-bg: #f6f5f1;
     --pwaa-profile-acc: #2784c1;
@@ -53,6 +53,10 @@ a {
 
 h2{
     margin-bottom:0;
+}
+
+img{
+    max-width:100%;
 }
 
 .longruby{
@@ -125,6 +129,8 @@ h2{
 .inactive {
     font-size: 21px;
 }
+
+
 
 
 

@@ -2,6 +2,10 @@ th {
     padding: 5px;
 }
 
+hr{
+    margin: 15px 0;
+}
+
 .t {
     width: 10%;
 }
@@ -19,4 +23,5 @@ th {
     border-bottom-style:solid;
     border-bottom-width:1px;
 }
+
 
