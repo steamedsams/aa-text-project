@@ -98,8 +98,9 @@ img{
 }
 
 .about {
-    width: 95%;
     margin: auto;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .inactive {
@@ -129,11 +130,3 @@ img{
 .inactive {
     font-size: 21px;
 }
-
-
-
-
-
-
-
-
