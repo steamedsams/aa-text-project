@@ -104,7 +104,7 @@ img {
 .content {
     border-style: solid;
     border-width:2px;
-    padding:8px 8px 10px 8px;
+    padding:4px 2px 12px 8px;
     margin: auto;
     display: none;
 }
@@ -116,3 +116,4 @@ img {
 .choice{
     text-align:center;
 }
+
