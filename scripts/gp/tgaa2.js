@@ -38,8 +38,9 @@ function c5hl(){
 function init(){
     adventure.addEventListener("mouseout", c1);
     adventure.addEventListener("mouseover", c1hl);
-    memoirs.addEventListener("mouseout", c2);
-    memoirs.addEventListener("mouseover", c2hl);
+    //memoirs.addEventListener("mouseout", c2);
+    //memoirs.addEventListener("mouseover", c2hl);
 }
+
 
 init();
