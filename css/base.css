@@ -18,7 +18,7 @@ body {
     --tgaa-cr-text: #2b2408;
     --tgaa-logo-text: #363e51;
     --tgaa-logo-hl: #921e2b;
-    --tgaa-deduction-solved:#c01716;
+    --tgaa-deduction-solved: #c01716;
     --tgaa-blood-green: #88ae50;
     --tgaa-blood-blue: #365faa;
     --tgaa-blood-purple: #623d9c;
@@ -57,6 +57,16 @@ h2{
 
 img{
     max-width:100%;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+h2 {
+    margin-bottom: 6px;
 }
 
 .longruby{
@@ -103,17 +113,13 @@ img{
     padding-right:20px;
 }
 
-.inactive {
-    color: black;
-}
-
-.strike{
-    text-decoration:line-through;
+.strike {
+    text-decoration: line-through;
     text-decoration-thickness: 5px;
 }
 
-.ul{
-    text-decoration:underline;
+.ul {
+    text-decoration: underline;
 }
 
 .rj {
@@ -123,10 +129,4 @@ img{
 .title {
     background: none;
     border:none;
-}
-
-.caselist,
-.gamelist,
-.inactive {
-    font-size: 21px;
 }
