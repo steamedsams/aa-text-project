@@ -105,17 +105,12 @@ li::marker{
     background-color: var(--tgaa-logo-text);
 }
 
-.caselist{
-    color:var(--tgaa-logo-hl)
-}
-
 .english{
     font-family:'Lucida Handwriting', cursive;
 }
 
 .engimg{
     display:inline-block;
-
 }
 
 .solved{
@@ -137,4 +132,3 @@ li::marker{
     text-decoration-thickness:1px;
     text-decoration-color:var(--tgaa-cr-text);
 }
-
