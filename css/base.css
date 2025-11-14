@@ -69,6 +69,21 @@ h2 {
     margin-bottom: 6px;
 }
 
+section{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:0px 4px;
+}
+
+#title{
+    margin-bottom:12px;
+}
+
+.long{
+    min-height:70px;
+    object-fit:cover;
+}
+
 .longruby{
     ruby-align:center;
 }
@@ -129,4 +144,14 @@ h2 {
 .title {
     background: none;
     border:none;
+}
+
+.hidden{
+    display:none;
+}
+
+@media (max-width:750px){
+    section{
+        grid-template-columns: 1fr;
+    }
 }
