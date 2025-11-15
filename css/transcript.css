@@ -37,7 +37,7 @@ rt {
 }
 
 img {
-    width: 50%;
+    width: 55%;
     display: block;
     margin: auto;
 }
@@ -117,5 +117,8 @@ img {
     text-align:center;
 }
 
-
-
+@media (max-width:750px){
+    img{
+        width:100%;
+    }
+}
