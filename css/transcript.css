@@ -94,8 +94,7 @@ img {
 }
 
 .collapsible {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding:8px 4px;
     border-style: double;
     display:block;
     margin:auto;
