@@ -1,9 +1,11 @@
-body{
-    background-color:var(--tgaa-cr-bg);
+body {
+    background-color: var(--tgaa-cr-bg);
 }
 
-h1{
-    color:var(--tgaa-cr-text);
+h1,
+h2,
+li::marker {
+    color: var(--tgaa-cr-text);
 }
 
 table,
@@ -12,38 +14,34 @@ td {
     border-color: var(--tgaa-textbox-innerborder);
 }
 
-td{
+td {
     background-color: var(--tgaa-textbox-bg);
 }
 
-strong{
-    color:white;
+strong {
+    color: white;
 }
 
-a{
-    color:var(--tgaa-choice-border-selected);
+a {
+    color: var(--tgaa-choice-border-selected);
 }
 
-hr{
-    border-color:var(--tgaa-cr-text);
+hr {
+    border-color: var(--tgaa-cr-text);
 }
 
-li::marker{
-    color:var(--tgaa-cr-text);
+#searchmode {
+    background-color: var(--tgaa-choice-bg);
+    border: solid 2px var(--tgaa-choice-border);
+    color: var(--tgaa-choice-text);
 }
 
-#searchmode{
-    background-color:var(--tgaa-choice-bg);
-    border:solid 2px var(--tgaa-choice-border);
-    color:var(--tgaa-choice-text);
-}
-
-#searchmode:hover{
+#searchmode:hover {
     border: solid 2px var(--tgaa-choice-border-selected);
 }
 
 .helper {
-    color:var(--tgaa-cr-text);
+    color: var(--tgaa-cr-text);
 }
 
 .option {
@@ -68,67 +66,71 @@ li::marker{
     color: var(--tgaa-textbox-border);
 }
 
-.content{
-    border-color:var(--tgaa-choice-border);
+.content {
+    border-color: var(--tgaa-choice-border);
 }
 
 .eng {
-    border-left-color:var(--tgaa-choice-border);
+    border-left-color: var(--tgaa-choice-border);
 }
 
-.bottom{
-    border-bottom-color:var(--tgaa-choice-border);
+.bottom {
+    border-bottom-color: var(--tgaa-choice-border);
 }
 
-.pf{
-    background-color:var(--tgaa-cr-bg);
+.pf {
+    background-color: var(--tgaa-cr-bg);
 }
 
-.pfp{
-    color:var(--tgaa-cr-text);
+.pf2 {
+    background-color:#c0b898;
 }
 
-.nav2{
+.pfp {
+    color: var(--tgaa-cr-text);
+}
+
+.nav2 {
     background-color: var(--tgaa-logo-hl);
 }
 
-.nava2{
-    color:white;
+.nava2 {
+    color: white;
 }
 
-.active{
-    color:var(--tgaa-logo-text);
-    background-color:var(--tgaa-cr-bg);
+.active {
+    color: var(--tgaa-logo-text);
+    background-color: var(--tgaa-cr-bg);
 }
 
 .nava2:hover {
     background-color: var(--tgaa-logo-text);
 }
 
-.english{
-    font-family:'Lucida Handwriting', cursive;
+.english {
+    font-family: 'Lucida Handwriting', cursive;
 }
 
-.engimg{
-    display:inline-block;
+.engimg {
+    display: inline-block;
 }
 
-.solved{
-    color:var(--tgaa-deduction-solved);
+.solved {
+    color: var(--tgaa-deduction-solved);
 }
 
-.ul{
-    text-decoration-color:var(--tgaa-cr-text);
+.ul {
+    text-decoration-color: var(--tgaa-cr-text);
 }
 
-.strike{
-    text-decoration-color:var(--tgaa-textbox-innerborder);
+.strike {
+    text-decoration-color: var(--tgaa-textbox-innerborder);
 }
 
-.name{
-    color:var(--tgaa-cr-text);
-    text-decoration:underline;
-    text-decoration-style:dashed;
-    text-decoration-thickness:1px;
-    text-decoration-color:var(--tgaa-cr-text);
+.name {
+    color: var(--tgaa-cr-text);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--tgaa-cr-text);
 }
