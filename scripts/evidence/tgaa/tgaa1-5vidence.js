@@ -44,3 +44,5 @@ function init(){
     name_en_1.addEventListener("click", changeNameEng);
     name_en_2.addEventListener("click", changeNameEng);
 }
+
+init();
