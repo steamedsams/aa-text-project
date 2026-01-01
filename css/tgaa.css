@@ -1,10 +1,12 @@
-body {
+body,
+.pf {
     background-color: var(--tgaa-cr-bg);
 }
 
 h1,
 h2,
-li::marker {
+.helper,
+.pfp {
     color: var(--tgaa-cr-text);
 }
 
@@ -40,8 +42,8 @@ hr {
     border: solid 2px var(--tgaa-choice-border-selected);
 }
 
-.helper {
-    color: var(--tgaa-cr-text);
+#otherul {
+    background: none;
 }
 
 .option {
@@ -78,18 +80,11 @@ hr {
     border-bottom-color: var(--tgaa-choice-border);
 }
 
-.pf {
-    background-color: var(--tgaa-cr-bg);
-}
-
 .pf2 {
-    background-color:#c0b898;
+    background-color: #c0b898;
 }
 
-.pfp {
-    color: var(--tgaa-cr-text);
-}
-
+#other,
 .nav2 {
     background-color: var(--tgaa-logo-hl);
 }
@@ -103,6 +98,7 @@ hr {
     background-color: var(--tgaa-cr-bg);
 }
 
+#other:hover,
 .nava2:hover {
     background-color: var(--tgaa-logo-text);
 }
@@ -133,4 +129,10 @@ hr {
     text-decoration-style: dashed;
     text-decoration-thickness: 1px;
     text-decoration-color: var(--tgaa-cr-text);
+}
+
+.name2 {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
 }
