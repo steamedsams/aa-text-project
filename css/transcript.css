@@ -1,5 +1,5 @@
-body{
-    padding-bottom:10px;
+body {
+    padding-bottom: 10px;
 }
 
 table {
@@ -20,8 +20,8 @@ td {
     max-width: 50%;
 }
 
-h3{
-    color:white;
+h3 {
+    color: white;
 }
 
 p {
@@ -30,6 +30,7 @@ p {
     padding-right: 4px;
     line-height: 1.8;
     color: white;
+    text-decoration-color: white;
 }
 
 rt {
@@ -46,10 +47,10 @@ img {
     margin-top: 4px;
 }
 
-#searchmode{
-    padding:8px;
-    display:block;
-    margin:auto;
+#searchmode {
+    padding: 8px;
+    display: block;
+    margin: auto;
 }
 
 .option {
@@ -57,8 +58,8 @@ img {
 }
 
 .eng {
-    border-left-style:solid;
-    border-left-width:1px;
+    border-left-style: solid;
+    border-left-width: 1px;
 }
 
 .nav2 {
@@ -94,30 +95,30 @@ img {
 }
 
 .collapsible {
-    padding:8px 4px;
+    padding: 8px 4px;
     border-style: double;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
 .content {
     border-style: solid;
-    border-width:2px;
-    padding:4px 8px 8px 8px;
+    border-width: 2px;
+    padding: 4px 8px 8px 8px;
     margin: auto;
     display: none;
 }
 
-.ce{
-    margin-bottom:0;
+.ce {
+    margin-bottom: 0;
 }
 
-.choice{
-    text-align:center;
+.choice {
+    text-align: center;
 }
 
-@media (max-width:750px){
-    img{
-        width:100%;
+@media (max-width:750px) {
+    img {
+        width: 100%;
     }
 }

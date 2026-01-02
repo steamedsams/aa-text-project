@@ -2,7 +2,7 @@ th {
     padding: 5px;
 }
 
-hr{
+hr {
     margin: 15px 0;
 }
 
@@ -12,20 +12,25 @@ hr{
 
 .i {
     width: 40%;
-
 }
 
-.map{
-    width:100%;
+.map {
+    width: 100%;
 }
 
-.bottom{
-    border-bottom-style:solid;
-    border-bottom-width:1px;
+.name {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
 }
 
-@media (max-width:750px){
-    .map{
-        margin-bottom:4px;
+.bottom {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+@media (max-width:750px) {
+    .map {
+        margin-bottom: 4px;
     }
 }
