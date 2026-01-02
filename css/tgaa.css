@@ -5,8 +5,7 @@ body,
 
 h1,
 h2,
-.helper,
-.pfp {
+.helper {
     color: var(--tgaa-cr-text);
 }
 
@@ -84,6 +83,11 @@ hr {
     background-color: #c0b898;
 }
 
+.pfp{
+    color: var(--tgaa-cr-text);
+    text-decoration-color: var(--tgaa-cr-text);
+}
+
 #other,
 .nav2 {
     background-color: var(--tgaa-logo-hl);
@@ -121,18 +125,4 @@ hr {
 
 .strike {
     text-decoration-color: var(--tgaa-textbox-innerborder);
-}
-
-.name {
-    color: var(--tgaa-cr-text);
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-thickness: 1px;
-    text-decoration-color: var(--tgaa-cr-text);
-}
-
-.name2 {
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-thickness: 1px;
 }
