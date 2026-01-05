@@ -116,7 +116,7 @@ hr {
 }
 
 .solved {
-    color: var(--tgaa-deduction-solved);
+    color: red;
 }
 
 .ul {
