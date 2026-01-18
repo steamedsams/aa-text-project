@@ -42,11 +42,10 @@ function init(){
     memoirs.addEventListener("mouseover", c2hl);
     thereturn.addEventListener("mouseout", c3);
     thereturn.addEventListener("mouseover", c3hl);
-    //lastbow.addEventListener("mouseout", c4);
-    //lastbow.addEventListener("mouseover", c4hl);
-    //resolve.addEventListener("mouseout", c5);
-    //resolve.addEventListener("mouseover", c5hl);
+    lastbow.addEventListener("mouseout", c4);
+    lastbow.addEventListener("mouseover", c4hl);
+    resolve.addEventListener("mouseout", c5);
+    resolve.addEventListener("mouseover", c5hl);
 }
 
 init();
-
