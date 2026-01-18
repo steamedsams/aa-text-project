@@ -6,6 +6,11 @@ hr {
     border-color: #4b2a10;
 }
 
+img{
+    display:block;
+    margin:auto;
+}
+
 #profile {
     background-color: var(--pwaa-profile-bg);
     border: solid 4px;
@@ -25,6 +30,11 @@ hr {
 
 #desc {
     margin-right: 6px;
+}
+
+#thanks{
+    list-style-type: disc;
+    margin-left:15px;
 }
 
 .description {
