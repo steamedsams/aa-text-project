@@ -14,7 +14,7 @@ img{
 #profile {
     background-color: var(--pwaa-profile-bg);
     border: solid 4px;
-    border-radius: 2%;
+    border-radius: 10px;
     border-color: var(--pwaa-profile-acc);
     margin-bottom: 18px;
     padding:10px;
