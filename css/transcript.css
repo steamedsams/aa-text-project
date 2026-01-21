@@ -51,6 +51,8 @@ img {
     padding: 8px;
     display: block;
     margin: auto;
+    font-size: medium;
+    width: 40%;
 }
 
 .option {
@@ -80,18 +82,6 @@ img {
 
 .navli2 .nava2 {
     padding: 4px 12px;
-}
-
-.tht {
-    color: #18d5f8;
-}
-
-.info {
-    color: #7df50b;
-}
-
-.emph {
-    color: #ff6d18;
 }
 
 .collapsible {
