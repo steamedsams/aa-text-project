@@ -2,10 +2,10 @@ body {
     margin: 0;
     padding: 0 0 5px 0;
     /*Phoenix Wright color palette*/
-    --pwaa-profile-bg: #f6f5f1;
-    --pwaa-profile-acc: #2784c1;
-    --pwaa-profile-hl: #ffbf15;
-    --pwaa-profile-ul: #b1b1b1;
+    --pwaa-profile-bg: #f7f6f2;
+    --pwaa-profile-acc: #2982b5;
+    --pwaa-profile-hl: #ffc31e;
+    --pwaa-profile-ul: #4a494a;
     /*TGAA color palette*/
     --tgaa-textbox-border: #d1be67;
     --tgaa-textbox-innerborder: #4c4424;
