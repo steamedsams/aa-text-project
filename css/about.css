@@ -6,9 +6,9 @@ hr {
     border-color: #4b2a10;
 }
 
-img{
-    display:block;
-    margin:auto;
+img {
+    display: block;
+    margin: auto;
 }
 
 #profile {
@@ -17,9 +17,9 @@ img{
     border-radius: 10px;
     border-color: var(--pwaa-profile-acc);
     margin-bottom: 18px;
-    padding:10px;
+    padding: 10px;
     grid-template-columns: 1fr 3fr;
-    gap:10px;
+    gap: 10px;
 }
 
 #myname {
@@ -32,9 +32,9 @@ img{
     margin-right: 6px;
 }
 
-#thanks{
+#thanks {
     list-style-type: disc;
-    margin-left:15px;
+    margin-left: 15px;
 }
 
 .description {
@@ -43,10 +43,11 @@ img{
     text-decoration: underline;
     text-decoration-color: var(--pwaa-profile-ul);
     text-decoration-style: dashed;
+    text-underline-offset: 3px;
 }
 
-@media (max-width:650px){
-    #profile{
+@media (max-width:650px) {
+    #profile {
         grid-template-columns: 1fr;
     }
 }
