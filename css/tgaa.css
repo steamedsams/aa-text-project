@@ -63,6 +63,18 @@ hr {
     color: var(--tgaa-choice-text);
 }
 
+.tht {
+    color: #18d5f8;
+}
+
+.info {
+    color: #7df50b;
+}
+
+.emph {
+    color: #ff6d18;
+}
+
 .gold {
     color: var(--tgaa-textbox-border);
 }
