@@ -43,7 +43,7 @@ img {
     text-decoration: underline;
     text-decoration-color: var(--pwaa-profile-ul);
     text-decoration-style: dashed;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
 }
 
 @media (max-width:650px) {
