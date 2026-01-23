@@ -31,14 +31,25 @@ hr {
     border-color: var(--tgaa-cr-text);
 }
 
-#searchmode {
+select {
+    color: var(--tgaa-choice-text);
+    border-color: var(--tgaa-choice-border);
+    background-color:var(--tgaa-choice-bg);
+}
+
+#searchmode,
+#filter {
     background-color: var(--tgaa-choice-bg);
-    border: solid 2px var(--tgaa-choice-border);
+    border-color: var(--tgaa-choice-border);
     color: var(--tgaa-choice-text);
 }
 
 #searchmode:hover {
     border: solid 2px var(--tgaa-choice-border-selected);
+}
+
+#filter:hover {
+    border: solid 1px var(--tgaa-choice-border-selected);
 }
 
 #otherul {
