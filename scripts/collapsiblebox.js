@@ -13,8 +13,8 @@ function init(){
     let boxes = document.getElementsByClassName("collapsible");
     for(let x = 0; x < boxes.length; x++){
         boxes[x].addEventListener("click", display);
-        boxes[x].addEventListener("click", init);
     }
 }
+
 
 init();
