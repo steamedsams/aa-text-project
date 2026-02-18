@@ -34,7 +34,7 @@ hr {
 select {
     color: var(--tgaa-choice-text);
     border-color: var(--tgaa-choice-border);
-    background-color:var(--tgaa-choice-bg);
+    background-color: var(--tgaa-choice-bg);
 }
 
 #searchmode,
@@ -54,10 +54,6 @@ select {
 
 #otherul {
     background: none;
-}
-
-.option {
-    background-color: var(--tgaa-choice-bg);
 }
 
 .collapsible {
@@ -106,7 +102,7 @@ select {
     background-color: #c0b898;
 }
 
-.pfp{
+.pfp {
     color: var(--tgaa-cr-text);
     text-decoration-color: var(--tgaa-cr-text);
 }
