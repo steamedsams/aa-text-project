@@ -59,8 +59,4 @@ function filter(){
     }
 }
 
-function init(){
-    f.addEventListener("click", filter);
-}
-
-init();
+f.addEventListener("click", filter);
