@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/tgaa.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
     <script defer src="scripts/collapsiblebox.js"></script>
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -45,7 +47,19 @@
             <a href="tgaa1.html" style="color:var(--tgaa-logo-text)">
                 < back to <i>The Great Ace Attorney: Adventures</i></a>
         </div>
-        <h1 class=" center">The Adventure of the Unbreakable Speckled Band: Evidence</h1>
+        <h1 class="center">The Adventure of the Unbreakable Speckled Band: Evidence</h1>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <div class="collapsible">
             <table class="option">
                 <tr class="option">

@@ -2,10 +2,21 @@ body {
     margin: 0;
     padding: 0 0 5px 0;
     /*Phoenix Wright color palette*/
+    --pwaa-textbox-bg: #081021;
+    --pwaa-textbox-bg2: #212839;
     --pwaa-profile-bg: #f7f6f2;
-    --pwaa-profile-acc: #2982b5;
+    --pwaa-profile-acc: #227aaa;
     --pwaa-profile-hl: #ffc31e;
     --pwaa-profile-ul: #4a494a;
+    --pwaa-choice-bg: #348ebf;
+    /*Apollo Justice color palette*/
+    --ajaa-np-border: #2f2873;
+    --ajaat-choice-bg: #f9f5ec;
+    --ajaat-choice-text: #371e0f;
+    --ajaat-choice-border: #656561;
+    --ajaat-choice-border-selected: #e8b608;
+    --ajaat-cr-bg: #e1dfd6;
+    --ajaat-cr-text: #090e19;
     /*TGAA color palette*/
     --tgaa-textbox-border: #d1be67;
     --tgaa-textbox-innerborder: #4c4424;
