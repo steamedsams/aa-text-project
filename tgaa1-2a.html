@@ -10,6 +10,8 @@
     <link rel="icon" href="images/tgaa-badge.png" />
     <script defer src="scripts/collapsiblebox.js"></script>
     <script defer src="scripts/searchmode.js"></script>
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -45,8 +47,20 @@
             <a href="tgaa1.html" style="color:var(--tgaa-logo-text)">
                 < back to <i>The Great Ace Attorney: Adventures</i></a>
         </div>
-        <h1 class=" center">The Adventure of the Unbreakable Speckled Band</h1>
+        <h1 class="center">The Adventure of the Unbreakable Speckled Band</h1>
         <button id="searchmode" type="button">Click to enable Searchable Mode</button>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <p class="helper"><i>Anime cutscene</i></p>
         <table>
             <tr>
@@ -4905,7 +4919,7 @@
             </div>
             <div class="content">
                 <div class="collapsible">
-                    <p class="choice">First time</p>
+                    <p class="choice">first time</p>
                 </div>
                 <div class="content">
                     <table>
@@ -5028,7 +5042,7 @@
                     </table>
                 </div>
                 <div class="collapsible">
-                    <p class="choice">Subsequent times</p>
+                    <p class="choice">subsequent times</p>
                 </div>
                 <div class="content">
                     <table>
@@ -5079,7 +5093,7 @@
                     </table>
                 </div>
                 <div class="collapsible">
-                    <p class="choice">After presenting Kazuma's Diary</p>
+                    <p class="choice">after presenting Kazuma's Diary</p>
                 </div>
                 <div class="content">
                     <table>
