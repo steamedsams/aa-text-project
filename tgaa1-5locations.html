@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/evidence.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
     <script defer src="scripts/collapsiblebox.js"></script>
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -49,6 +51,18 @@
                 < back to <i>The Great Ace Attorney: Adventures</i></a>
         </div>
         <h1 class=" center">The Adventure of the Unspeakable Story: Locations</h1>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <div class="collapsible">
             <table class="option">
                 <tr class="option">
@@ -366,7 +380,7 @@
                     <td><p>Iris:<br/>You haven't been to this place yet. Don't forget to take me with you when you go!</p></td>
                 </tr>
                 <tr>
-                    <td><p>アイリス:<br/>あ。そういえば····ここ。たまには、行ってみたい力モ。</p></td>
+                    <td><p>アイリス:<br/>あ。そういえば····ここ。たまには、行ってみたいカモ。</p></td>
                     <td><p>Iris:<br/>You know...I think a visit to this place could be a good idea!</p></td>
                 </tr>
                 <tr>

@@ -94,6 +94,10 @@ select {
     border-left-color: var(--tgaa-choice-border);
 }
 
+.eng2 {
+    border-left: solid 1px var(--tgaa-choice-border);
+}
+
 .bottom {
     border-bottom-color: var(--tgaa-choice-border);
 }

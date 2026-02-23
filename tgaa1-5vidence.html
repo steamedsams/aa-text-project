@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/evidence.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
     <script defer src="scripts/collapsiblebox.js"></script>
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
     <script defer src="scripts/evidence/tgaa/tgaa1-5vidence.js"></script>
 </head>
 
@@ -50,6 +52,18 @@
                 < back to <i>The Great Ace Attorney: Adventures</i></a>
         </div>
         <h1 class=" center">The Adventure of the Unspeakable Story: Evidence</h1>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <div class="collapsible">
             <table class="option">
                 <tr class="option">
@@ -122,20 +136,20 @@
                             <br/>
                             <table class="title about">
                                 <tr class="title bottom">
-                                    <td class="title i pf"><p class="pfp">預かり日</p></td>
-                                    <td class="title eng pf"><p class="pfp">2月13日 午後9時</p></td>
+                                    <td class="Japanese title i pf"><p class="pfp">預かり日</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">2月13日 午後9時</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">品 目</p></td>
-                                    <td class="title eng pf"><p class="pfp">小箱</p></td>
+                                    <td class="Japanese title pf"><p class="pfp">品 目</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">小箱</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">金 額</p></td>
-                                    <td class="title eng pf"><p class="pfp">10シリング</p></td>
+                                    <td class="Japanese title pf"><p class="pfp">金 額</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">10シリング</p></td>
                                 </tr>
                                 <tr class="title">
-                                    <td class="title pf"><p class="pfp">返済期限</p></td>
-                                    <td class="title eng pf"><p class="pfp">4月13日 午後9時</p></td>
+                                    <td class="Japanese title pf"><p class="pfp">返済期限</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">4月13日 午後9時</p></td>
                                 </tr>
                             </table>
                             <br/>
@@ -146,20 +160,20 @@
                             <br/>
                             <table class="title about">
                                 <tr class="title bottom">
-                                    <td class="title i pf"><p class="pfp">Date deposited</p></td>
-                                    <td class="title eng pf"><p class="pfp">13th February, 9:00 p.m.</p></td>
+                                    <td class="English title i pf"><p class="pfp">Date deposited</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">13th February, 9:00 p.m.</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">Article deposited</p></td>
-                                    <td class="title eng pf"><p class="pfp">One small box</p></td>
+                                    <td class="English title pf"><p class="pfp">Article deposited</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">One small box</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">Loan amount paid</p></td>
-                                    <td class="title eng pf"><p class="pfp">10 shillings</p></td>
+                                    <td class="English title pf"><p class="pfp">Loan amount paid</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">10 shillings</p></td>
                                 </tr>
                                 <tr class="title">
-                                    <td class="title pf"><p class="pfp">Redemption deadline</p></td>
-                                    <td class="title eng pf"><p class="pfp">13th April, 9:00 p.m.</p></td>
+                                    <td class="English title pf"><p class="pfp">Redemption deadline</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">13th April, 9:00 p.m.</p></td>
                                 </tr>
                             </table>
                             <br/>
@@ -236,20 +250,20 @@
                             <br/>
                             <table class="title about">
                                 <tr class="title bottom">
-                                    <td class="title i pf"><p class="pfp">預かり日</p></td>
-                                    <td class="title eng pf"><p class="pfp">2月15日 午後10時30分</p></td>
+                                    <td class="Japanese title i pf"><p class="pfp">預かり日</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">2月15日 午後10時30分</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">品 目</p></td>
-                                    <td class="title eng pf"><p class="pfp">紳士用外套</p></td>
+                                    <td class="Japanese title pf"><p class="pfp">品 目</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">紳士用外套</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">金 額</p></td>
-                                    <td class="title eng pf"><p class="pfp">1ポンド</p></td>
+                                    <td class="Japanese title pf"><p class="pfp">金 額</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">1ポンド</p></td>
                                 </tr>
                                 <tr class="title">
-                                    <td class="title pf"><p class="pfp">返済期限</p></td>
-                                    <td class="title eng pf"><p class="pfp">4月15日 午後10時30分</p></td>
+                                    <td class="Japanese title pf"><p class="pfp">返済期限</p></td>
+                                    <td class="Japanese title eng2 pf"><p class="pfp">4月15日 午後10時30分</p></td>
                                 </tr>
                             </table>
                             <br/>
@@ -260,20 +274,20 @@
                             <br/>
                             <table class="title about">
                                 <tr class="title bottom">
-                                    <td class="title i pf"><p class="pfp">Date deposited</p></td>
-                                    <td class="title eng pf"><p class="pfp">15th February, 10:30 p.m.</p></td>
+                                    <td class="English title i pf"><p class="pfp">Date deposited</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">15th February, 10:30 p.m.</p></td>
                                 </tr>
                                 <tr class="option bottom">
-                                    <td class="title pf"><p class="pfp">Article deposited</p></td>
-                                    <td class="title eng pf"><p class="pfp">One gentleman's overcoat</p></td>
+                                    <td class="English title pf"><p class="pfp">Article deposited</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">One gentleman's overcoat</p></td>
                                 </tr>
                                 <tr class="title bottom">
-                                    <td class="title pf"><p class="pfp">Loan amount paid</p></td>
-                                    <td class="title eng pf"><p class="pfp">1 pound</p></td>
+                                    <td class="English title pf"><p class="pfp">Loan amount paid</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">1 pound</p></td>
                                 </tr>
                                 <tr class="option">
-                                    <td class="title pf"><p class="pfp">Redemption deadline</p></td>
-                                    <td class="title eng pf"><p class="pfp">15th April, 10:30 p.m.</p></td>
+                                    <td class="English title pf"><p class="pfp">Redemption deadline</p></td>
+                                    <td class="English title eng2 pf"><p class="pfp">15th April, 10:30 p.m.</p></td>
                                 </tr>
                             </table>
                             <br/>
