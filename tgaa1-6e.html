@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/transcript.css" />
     <link rel="stylesheet" href="css/tgaa.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -65,6 +67,18 @@
                 <td class="title"><p class="pfp center">An escapade in Naruhodo's Legal Consultancy, where Susato appears to be rather irritated...because it seems Ryunosuke has been buying a little too much bric-a-brac and now the whole place is brimming with things they don't need. And his latest purchase has really rocked the boat with Iris and Susato.</p></td>
             </tr>
         </table>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <table>
             <tr>
                 <td><p class="info center">3月5日 午後14時40分<br/>成歩堂法律相談所</p></td>
