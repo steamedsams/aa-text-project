@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/transcript.css" />
     <link rel="stylesheet" href="css/tgaa.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -65,6 +67,18 @@
                 <td class="title"><p class="pfp center">In this escapade in Mr Natsume's room, it's revealed that the Japanese scholar was once a teacher of English. He has much to say on the cultural differences between Japan and Britain, as well as on sentimentality, Shakespeare and cycling...</p></td>
             </tr>
         </table>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <table>
             <tr>
                 <td><p class="info center">2月23日 午後6時9分<br/><ruby>夏目<rt>なつめ</rt></ruby><ruby>漱石<rt>そうせき</rt></ruby>の部屋</p></td>

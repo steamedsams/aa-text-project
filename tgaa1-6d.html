@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/transcript.css" />
     <link rel="stylesheet" href="css/tgaa.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -65,6 +67,18 @@
                 <td class="title"><p class="pfp center">This fourth escapade unfolds one morning on Baker Street when Iris has prepared breakfast for everyone as usual. But Ryunosuke wakes to find an envelope under his door containing a death threat! Who on earth could have put it there? And why?!</p></td>
             </tr>
         </table>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <table>
             <tr>
                 <td><p class="info center">3月9日 午前8時23分<br/>ホームズの部屋</p></td>

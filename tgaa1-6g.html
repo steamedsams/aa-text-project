@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/transcript.css" />
     <link rel="stylesheet" href="css/tgaa.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -65,6 +67,18 @@
                 <td class="title"><p class="pfp center">A chilling escapade about a shilling's escape from the clutches of Roly and Pat Beate, who'd only just found it on the street. Gina the pickpocket is the obvious suspect, but Ryunosuke, Sholmes and Iris happen to be passing and the plot quickly thickens...</p></td>
             </tr>
         </table>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <table>
             <tr>
                 <td><p class="info center">4月30日 午後12時20分<br/>ブライヤーロード</p></td>
