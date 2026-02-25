@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/transcript.css" />
     <link rel="stylesheet" href="css/tgaa.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -65,6 +67,18 @@
                 <td class="title"><p class="pfp center">In this second escapade, it transpires that another crime was committed aboard the SS Burya. The stakes are high as Sholmes and Strogenov pursue the culprit, but...there's more to the crime than meets the eye...</p></td>
             </tr>
         </table>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <table>
             <tr>
                 <td><p class="info center">1月6日 午後6時23分<br/>アラクレイ号 <ruby>壱等<rt>いっとう</rt></ruby>船室 <ruby>壱<rt>いち</rt></ruby>号室</p></td>
