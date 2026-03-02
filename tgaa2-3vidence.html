@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/evidence.css" />
     <link rel="icon" href="images/tgaa-badge.png" />
     <script defer src="scripts/collapsiblebox.js"></script>
+    <script defer src="scripts/evidence/tgaa/tgaafill.js"></script>
+    <script defer src="scripts/filter.js"></script>
 </head>
 
 <body>
@@ -54,7 +56,19 @@
             <a href="tgaa2.html" style="color:var(--tgaa-logo-text)">
                 < back to <i>The Great Ace Attorney 2: Resolve</i></a>
         </div>
-        <h1 class=" center">The Return of the Great Departed Soul: Evidence</h1>
+        <h1 class="center">The Return of the Great Departed Soul: Evidence</h1>
+        <div id="fdiv">
+			<p class="helper">Languages to compare:</p>
+			<select id="lang1">
+				<option value="Japanese" selected>日本語</option>
+				<option value="English">English</option>
+			</select>
+			<select id="lang2">
+				<option value="Japanese">日本語</option>
+				<option value="English" selected>English</option>
+			</select>
+			<button title="To view the transcript of a single language, set these two values equal to each other." id="filter" type="button">Filter</button>
+		</div>
         <div class="collapsible">
             <table class="option">
                 <tr class="option">
@@ -92,8 +106,8 @@
             </div>
             <div class="content">
                 <section>
-                    <img class="map" src="images/evidence/tgaa/expoarticle_jpn.png" alt="A newspaper article about the attack on Barok van Zieks with the headline 'DEATH BRINGER ATTACKED'. A black and white photograph in the article depicting van Zieks and his masked, hooded companion is captioned 'SIR VAN ZIEKS AND COMPATRIOT CORNERED!'."/>
-                    <img class="map" src="images/evidence/tgaa/expoarticle_eng.png" alt="A newspaper article about the attack on Barok van Zieks with the headline 'THE REAPER ATTACKED'. A black and white photograph in the article depicting van Zieks and his masked, hooded companion is captioned 'LORD VAN ZIEKS AND COMPATRIOT CORNERED!'."/>
+                    <img class="map ImgJapanese" src="images/evidence/tgaa/expoarticle_jpn.png" alt="A newspaper article about the attack on Barok van Zieks with the headline 'DEATH BRINGER ATTACKED'. A black and white photograph in the article depicting van Zieks and his masked, hooded companion is captioned 'SIR VAN ZIEKS AND COMPATRIOT CORNERED!'."/>
+                    <img class="map ImgEnglish" src="images/evidence/tgaa/expoarticle_eng.png" alt="A newspaper article about the attack on Barok van Zieks with the headline 'THE REAPER ATTACKED'. A black and white photograph in the article depicting van Zieks and his masked, hooded companion is captioned 'LORD VAN ZIEKS AND COMPATRIOT CORNERED!'."/>
                 </section>
             </div>
         </div>
@@ -492,8 +506,8 @@
 			</div>
 			<div class="content">
                 <section>
-                    <img class="map" src="images/evidence/tgaa/profarticle_jpn.png" alt="A newspaper article about the night of the Professor's execution with the headline 'Man Rises from the Grave!' A black and white sketch of a man holding a lantern up to a shadowy figure emerging from a grave is featured prominently. The sketch is captioned 'Mr Drebber's dreadful encounter' and signed 'E. Meningen' in the bottom right corner."/>
-                    <img class="map" src="images/evidence/tgaa/profarticle_eng.png" alt="A newspaper article about the night of the Professor's execution with the headline 'Man Rises from the Grave!' A black and white sketch of a man holding a lantern up to a shadowy figure emerging from a grave is featured prominently. The sketch is captioned 'Mr Drebber's dreadful encounter' and signed 'O. Asman' in the bottom right corner."/>
+                    <img class="map ImgJapanese" src="images/evidence/tgaa/profarticle_jpn.png" alt="A newspaper article about the night of the Professor's execution with the headline 'Man Rises from the Grave!' A black and white sketch of a man holding a lantern up to a shadowy figure emerging from a grave is featured prominently. The sketch is captioned 'Mr Drebber's dreadful encounter' and signed 'E. Meningen' in the bottom right corner."/>
+                    <img class="map ImgEnglish" src="images/evidence/tgaa/profarticle_eng.png" alt="A newspaper article about the night of the Professor's execution with the headline 'Man Rises from the Grave!' A black and white sketch of a man holding a lantern up to a shadowy figure emerging from a grave is featured prominently. The sketch is captioned 'Mr Drebber's dreadful encounter' and signed 'O. Asman' in the bottom right corner."/>
                 </section>
 			</div>
         </div>
@@ -501,5 +515,3 @@
 </body>
 
 </html>
-
-
