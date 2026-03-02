@@ -29,6 +29,15 @@ hr {
     border-bottom-width: 1px;
 }
 
+.single {
+    grid-column: 1 / span 2;
+    width: 55%;
+}
+
+.thumb {
+    max-width: 200px;
+}
+
 @media (max-width:750px) {
     .map {
         margin-bottom: 4px;

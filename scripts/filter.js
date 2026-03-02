@@ -57,6 +57,19 @@ function filter(){
             }
         }
     }
+    let evidence = document.getElementsByClassName("map");
+    for(let x = 0; x < evidence.length; x++){
+        evidence[x].classList.remove("single");
+        if(evidence[x].classList.contains("Img" + l1.value) || evidence[x].classList.contains("Img" + l2.value)){
+            evidence[x].classList.remove("hidden");
+            if(equal){
+                evidence[x].classList.add("single");
+            }
+        }
+        else{
+            evidence[x].classList.add("hidden");
+        }
+    }
 }
 
 f.addEventListener("click", filter);
