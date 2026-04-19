@@ -73,3 +73,4 @@ function filter(){
 }
 
 f.addEventListener("click", filter);
+filter();
