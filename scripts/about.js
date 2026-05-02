@@ -4,7 +4,7 @@ let a = today.getFullYear() - 2003;
 if(today.getMonth() < 4){
     a--;
 }
-else if(today.getMonth == 4){
+else if(today.getMonth() == 4){
     if(today.getDate() < 9){
         a--;
     }
